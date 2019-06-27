@@ -23,10 +23,10 @@
         valNum = parseFloat(valNum);
         document.getElementById("outputChuVi").innerHTML = 2*3.14*valNum;
     }
-    // function temperatureConverter(valNum) {
-    //     valNum = parseFloat(valNum);
-    //     document.getElementById("outputDienTich").innerHTML = 3.14*valNum*valNum;
-    // }
+    function temperatureConverter(valNum) {
+        valNum = parseFloat(valNum);
+        document.getElementById("outputDienTich").innerHTML = 3.14*valNum*valNum;
+    }
 
 </script>
 </body>
